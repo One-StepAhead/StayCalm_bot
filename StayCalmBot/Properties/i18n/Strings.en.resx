@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StressLevelAssessment" xml:space="preserve">
+    <value>Rate your stress level on a scale from 1 to 10.
+
+9-10 — I lose control of my emotions, unable to do anything.
+
+6-8 — I'm very worried, it's difficult to do things because of stress, you need to do something about it.
+
+ 1-5 — mostly fine, I can cope with unpleasant feelings and thoughts.</value>
+  </data>
+  <data name="HighStressLvl_FirstRound" xml:space="preserve">
+    <value>You're under a lot of stress right now. We need to come to our senses.
+
+Do two exercises. They are created for this situation 👇</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_1" xml:space="preserve">
+    <value>1️⃣ Put your palm on your stomach.
+
+2️⃣ Make sure that the palm moves when inhaling and exhaling.
+
+3️⃣ Breathe slowly for 45 seconds.
+
+Start when you're ready 👇</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_3" xml:space="preserve">
+    <value>Excellent. Your breathing should have slowed down and become deeper.
+
+If not, start breathing slower.
+
+Go to the second exercise 👇</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_4" xml:space="preserve">
+    <value>At first glance, the exercise looks childish, but it works great.
+
+While you're doing it, you'll come to your senses.</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_5" xml:space="preserve">
+    <value>Find any five objects with your eyes. Name them out loud or to yourself.</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_6" xml:space="preserve">
+    <value>Touch any four objects. Name them out loud or to yourself.</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_7" xml:space="preserve">
+    <value>Hear any three sounds. Name them out loud or to yourself.</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_8" xml:space="preserve">
+    <value>Pay attention to two sensations in your body (ear itches, leg is numb, thirsty).
+
+List them out loud or to yourself.</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_9" xml:space="preserve">
+    <value>Remember one of your qualities that you like.
+
+Say it out loud or say it to yourself.</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_10" xml:space="preserve">
+    <value>Excellent. We have done basic techniques to recover.
+
+The tension should have been reduced.
+
+Let's check it out.</value>
+  </data>
+  <data name="HighStressLvl_SecondRound" xml:space="preserve">
+    <value>You're still on edge.
+
+Let's take a different approach. Let's make another technique.</value>
+  </data>
+  <data name="HighStressLvl_SecondRound_Step_1" xml:space="preserve">
+    <value>1️⃣  At the same time, he wrinkled his forehead very much, wrinkled his nose, pulled his lips forward.
+
+2️⃣ Hold a strong tension for five seconds.
+
+3️⃣ Then slowly relax your face.</value>
+  </data>
+  <data name="HighStressLvl_SecondRound_Step_2" xml:space="preserve">
+    <value>1️⃣ Raise your shoulders as high as possible. Feel the tension in your neck.
+
+2️⃣ Hard, almost to the point of pain, clench your fists.
+
+3️⃣ Hold the tension for five seconds.
+
+4️⃣ Then slowly relax your shoulders and arms.</value>
+  </data>
+  <data name="HighStressLvl_SecondRound_Step_3" xml:space="preserve">
+    <value>1️⃣ Strongly bring your elbows behind your back, almost to the point of pain in your shoulder blades.
+
+2️⃣ Hold the voltage for 5 seconds.
+
+3️⃣ Then slowly relax your back.</value>
+  </data>
+  <data name="HighStressLvl_SecondRound_Step_4" xml:space="preserve">
+    <value>1. Stretch your toes very much towards yourself.
+
+2. Hold the voltage for 5 seconds.
+
+3. Then slowly relax your legs.</value>
+  </data>
+  <data name="HighStressLvl_SecondRound_Step_5" xml:space="preserve">
+    <value>Now take a deep breath. I felt my muscles relax.
+
+If there is still tension left, you can repeat this technique.</value>
+  </data>
+  <data name="HighStressLvl_SecondRound_Step_6" xml:space="preserve">
+    <value>Let's check how your condition has changed.</value>
+  </data>
+  <data name="HighStressLvl_SecondRound_Finish" xml:space="preserve">
+    <value>It happens.
+
+Let's take a break and do it again.
+
+Get distracted, drink some water, go out to another place, talk to someone if possible.
+
+After that, go back to the technicians. They work.</value>
+  </data>
+  <data name="HighStressLvl_EndOfExercises" xml:space="preserve">
+    <value>When you're ready, come back!</value>
+  </data>
+  <data name="Transition_FromHighToMediumLevel" xml:space="preserve">
+    <value>We are glad that it has become easier for you.
+
+If there are urgent matters, you can take care of them.
+
+If you want to feel even calmer, we can continue.</value>
+  </data>
+  <data name="Transition_FromHighToWeakevel" xml:space="preserve">
+    <value>We are glad that it has become easier for you.
+
+If there are urgent matters, you can take care of them.
+
+If you want to feel even calmer, we can continue.</value>
+  </data>
+  <data name="EndOfAssistance" xml:space="preserve">
+    <value>Glad you helped.
+
+If there is someone who also needs support, send him a link to our bot.
+
+We're here if anything.
+Launch the bot when you need it.</value>
+  </data>
+  <data name="MediumStressLvl" xml:space="preserve">
+    <value>We sympathize. It's not easy for you right now.
+
+Let's do three exercises together to reduce the level of tension.
+
+To do this, follow our instructions.</value>
+  </data>
+  <data name="MediumStressLvl_Step_1" xml:space="preserve">
+    <value>1️⃣ Sit or stand comfortably.
+
+2️⃣ Feel the floor or the ground under your feet.
+
+3. Focus on the feeling of solid support under your feet.
+
+4️⃣ Inhale through your nose. Pay attention to how the air fills the lungs.
+
+5️⃣ Imagine that you exhale air through your heels into the ground.
+
+6️⃣ Repeat inhaling through your nose and exhaling through your heels 7 times.</value>
+  </data>
+  <data name="MediumStressLvl_Step_2" xml:space="preserve">
+    <value>Now you feel the support.
+
+Let's take the next step.
+
+Count backwards from 30 to 1 out loud or to yourself.
+
+Clearly pronouncing each number.</value>
+  </data>
+  <data name="MediumStressLvl_Step_3" xml:space="preserve">
+    <value>1️⃣ Hug yourself very tightly with both hands on your shoulders.
+
+2️⃣ Count to ten and let go.
+
+3️⃣ Relax your fingers. And squeeze your shoulders very tightly again.
+
+4️⃣ Count to ten and let go.</value>
+  </data>
+  <data name="MediumStressLvl_Step_4" xml:space="preserve">
+    <value>Great! After these three exercises, the stress level should decrease slightly.
+
+At the same time, negative thoughts and feelings may return.  It's important to notice them, but not let them capture you.
+
+Shall we practice doing this?</value>
+  </data>
+  <data name="MediumStressLvl_Step_5" xml:space="preserve">
+    <value>This technique will help you see your emotion and let it go.
+
+1️⃣ Think about what negative emotion do you feel? Name her.</value>
+  </data>
+  <data name="MediumStressLvl_Step_6" xml:space="preserve">
+    <value>2️⃣ Feel where it is in your body? You may feel something similar to tension, heaviness, burning.
+
+3️⃣ Put your hand on this place.</value>
+  </data>
+  <data name="MediumStressLvl_Step_7" xml:space="preserve">
+    <value>4️⃣ Direct the breath to this place. In your imagination, surround this emotion with air.
+
+5️⃣ Let her be in an air bubble where she can't hurt you.
+
+6️⃣ Exhale.</value>
+  </data>
+  <data name="MediumStressLvl_Step_8" xml:space="preserve">
+    <value>Good. By this point, your feeling of stress should have decreased.
+
+Is it so?</value>
+  </data>
+  <data name="MediumStressLvl_Step_9" xml:space="preserve">
+    <value>We are glad that it has become easier for you.
+
+If there are urgent matters, you can take care of them.
+
+If you want to feel even calmer, we can repeat the exercises.
+
+Or you can get acquainted with the principles of maintaining your condition in the norm.</value>
+  </data>
+  <data name="MediumStressLvl_Principles" xml:space="preserve">
+    <value>We invite you to get acquainted with six principles that help you stay normal in difficult conditions.
+
+For each principle, you will find a recommendation on how to use it.
+
+Different principles suit different people. Choose the ones that are easier for you to perform.</value>
+  </data>
+  <data name="MediumStressLvl_Principles_1" xml:space="preserve">
+    <value>🔎 The main principle. Pay attention to your condition.
+
+It is important to know: stress is a natural reaction of the body in response to any adverse effect.
+
+If you know that you are experiencing stress, you can manage it.
+
+How to do it?
+
+⚡ When you feel tension, take a break from business and pay attention to your feelings.
+
+Name the emotion you're experiencing right now.
+
+🔎 Perhaps this emotion manifests itself in the body. Where? Think about what muscles are tense now: neck, back, face?
+
+Awareness alone is enough to trigger mechanisms that reduce stress levels.
+
+If you want, you can massage and relax tense muscles.</value>
+  </data>
+  <data name="MediumStressLvl_Principles_2" xml:space="preserve">
+    <value>🧍The second principle. Take care of your body.
+
+The better your physical condition, the easier it is for you to cope with stress.
+
+Try to fully eat, drink, sleep, rest, move - as much as possible.
+
+The body itself will help the psyche to stay normal.</value>
+  </data>
+  <data name="MediumStressLvl_Principles_3" xml:space="preserve">
+    <value>🗓️ The third principle. Rely on habits.
+
+Find habitual actions that you can perform regularly, even if everything around you is changing.
+
+For example: drink from the same mug every day, make your bed, exercise, keep a diary.
+
+This will help to keep the psyche in a working state.</value>
+  </data>
+  <data name="MediumStressLvl_Principles_4" xml:space="preserve">
+    <value>🙏 The fourth principle. Do good deeds.
+
+Every good deed increases your own resource. It works on a physiological level.
+
+Even the simplest actions are effective: say nice words to someone, make a gift to your loved ones, help your neighbor.</value>
+  </data>
+  <data name="MediumStressLvl_Principles_5" xml:space="preserve">
+    <value>🤝 The fifth principle. Communicate with other people.
+
+Communication is necessary for a person to maintain mental health. You can talk or just be around someone.
+
+Speak out, support others, just talk about any topic.</value>
+  </data>
+  <data name="MediumStressLvl_Principles_6" xml:space="preserve">
+    <value>🧠 The sixth principle. Observe the psycho hygiene.
+
+1️⃣ Set aside time when to check news sources and social networks.
+
+❗ important - not immediately after waking up and not before going to bed.
+
+2️⃣ Don't get into arguments. Most often, it's useless - it will only increase your stress level.
+
+It's OK to say, "Stop. I'm not discussing it."</value>
+  </data>
+  <data name="MediumStressLvl_Step_10" xml:space="preserve">
+    <value>Good.
+
+Now you know the basic principles.
+
+There will be more exercises and techniques here — we will write to you when we add them.
+
+If the stress level is more than 1-5, go to other sections of the bot by pressing the Start button in the Menu (next to the text input field).
+
+There are exercises that will help you recover here and now.</value>
+  </data>
+  <data name="MediumStressLvl_RepeatExercises" xml:space="preserve">
+    <value>We sympathize that the tension persists.
+
+Maybe you need more time for the exercises to work.
+
+Let's do them again, very slowly. They work.</value>
+  </data>
+  <data name="MediumStressLvl_NotNow" xml:space="preserve">
+    <value>Good. Perhaps switching will help you now: drink water, go to another place, talk to someone.
+
+We'll be here when you need us.</value>
+  </data>
+  <data name="MediumStressLvl_Repeat" xml:space="preserve">
+    <value>We sympathize that the tension persists.
+
+Maybe you need more time for the exercises to work.
+
+Let's do them again, very slowly. They work.</value>
+  </data>
+  <data name="WeakStressLvl" xml:space="preserve">
+    <value>At this level of stress, emergency measures are usually not required.
+
+ℹ️ We invite you to get acquainted with the principles that help you stay normal in difficult conditions.
+
+▶️ If you feel tension and want to reduce it right now, go to the exercises.</value>
+  </data>
+  <data name="WeakStressLvl_Step_1" xml:space="preserve">
+    <value>Good.
+
+Let's do three short techniques together.
+
+To do this, follow the instructions.</value>
+  </data>
+  <data name="WeakStressLvl_Step_2" xml:space="preserve">
+    <value>1️⃣ Sit or stand comfortably.
+
+2️⃣ Feel the floor or the ground under your feet.
+
+3. Focus on the feeling of solid support under your feet.
+
+4️⃣ Inhale through your nose. Pay attention to how the air fills the lungs.
+
+5️⃣ Imagine that you exhale air through your heels into the ground.
+
+6️⃣ Repeat inhaling through your nose and exhaling through your heels 7 times.</value>
+  </data>
+  <data name="WeakStressLvl_Step_3" xml:space="preserve">
+    <value>Now you feel the support.
+
+Let's take the next step.
+
+Count backwards from 30 to 1 out loud or to yourself.
+
+Clearly pronouncing each number.</value>
+  </data>
+  <data name="WeakStressLvl_Step_4" xml:space="preserve">
+    <value>1️⃣ Hug yourself very tightly with both hands on your shoulders.
+
+2️⃣ Count to ten and let go.
+
+3️⃣ Relax your fingers. And squeeze your shoulders very tightly again.
+
+4️⃣ Count to ten and let go.</value>
+  </data>
+  <data name="WeakStressLvl_Step_5" xml:space="preserve">
+    <value>Great! After these three exercises, the stress level should decrease slightly.
+
+At the same time, negative thoughts and feelings may return.  It's important to notice them, but not let them capture you.
+
+Shall we practice doing this?</value>
+  </data>
+  <data name="WeakStressLvl_Step_6" xml:space="preserve">
+    <value>This technique will help you see your emotion and let it go.
+
+1️⃣ Think about what negative emotion you feel? Name her.</value>
+  </data>
+  <data name="WeakStressLvl_Step_7" xml:space="preserve">
+    <value>2️⃣ Feel where it is in your body? You may feel something similar to tension, heaviness, burning.
+
+3️⃣ Put your hand on this place.</value>
+  </data>
+  <data name="WeakStressLvl_Step_8" xml:space="preserve">
+    <value>4️⃣ Direct the breath to this place. In your imagination, surround this emotion with air.
+
+5️⃣ Let her be in an air bubble where she can't hurt you.
+
+6️⃣ Exhale.</value>
+  </data>
+  <data name="WeakStressLvl_Step_9" xml:space="preserve">
+    <value>Good. By this point, your feeling of stress should have decreased.
+
+Is it so?</value>
+  </data>
+  <data name="WeakStressLvl_Repeat" xml:space="preserve">
+    <value>We sympathize that the tension persists.
+
+Maybe you need more time for the exercises to work.
+
+Let's do them again, very slowly. They work.</value>
+  </data>
+  <data name="Interaction_Description" xml:space="preserve">
+    <value>Hello!
+
+We are professional psychologists. We have been working in crisis situations for many years.
+
+We know which techniques are effective.
+
+We will help you to gather strength and cope with stress.
+
+Tell us what situation you are in, and we will offer techniques suitable for you.
+
+Click the "Next" button and answer a few questions👇
+You can also call the operator by clicking the appropriate button.</value>
+  </data>
+  <data name="HighStressLvl_FirstRound_Step_2" xml:space="preserve">
+    <value>there should be a timer here</value>
+  </data>
+  <data name="Interaction_ContactDetails" xml:space="preserve">
+    <value>Leave your contact details so that we can contact you.
+
+Choose a convenient way of communication for you👇</value>
+  </data>
+</root>

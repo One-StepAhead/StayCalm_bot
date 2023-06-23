@@ -1,0 +1,17 @@
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\bin\Debug\net7.0\OperatorAssistantBot.Domain.deps.json
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\bin\Debug\net7.0\OperatorAssistantBot.Domain.dll
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\bin\Debug\net7.0\OperatorAssistantBot.Domain.pdb
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\bin\Debug\net7.0\en\OperatorAssistantBot.Domain.resources.dll
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.csproj.AssemblyReference.cache
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.Properties.i18n.Strings.resources
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.Properties.i18n.Strings.en.resources
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.csproj.GenerateResource.cache
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.AssemblyInfoInputs.cache
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.AssemblyInfo.cs
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\en\OperatorAssistantBot.Domain.resources.dll
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.dll
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\refint\OperatorAssistantBot.Domain.dll
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\OperatorAssistantBot.Domain.pdb
+C:\Users\amird\source\repos\OperatorAssistantBot\OperatorAssistantBot.Domain\obj\Debug\net7.0\ref\OperatorAssistantBot.Domain.dll

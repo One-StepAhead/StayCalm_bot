@@ -1,0 +1,14 @@
+{
+  "runtimeOptions": {
+    "configProperties": {
+      "NetBeautyLibsDir": ".;./libraries",
+      "NetBeautySharedRuntimeMode": "no",
+      "STARTUP_HOOKS": "nbloader"
+    },
+    "framework": {
+      "name": "Microsoft.NETCore.App",
+      "version": "7.0.0"
+    },
+    "tfm": "net7.0"
+  }
+}
